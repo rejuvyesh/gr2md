@@ -20,6 +20,6 @@ executable gr2md
   main-is:             Main.hs
   -- other-modules:       
   other-extensions:    OverloadedStrings
-  build-depends:       base >=4.7 && <4.8, pandoc >=1.12 && <1.13, pandoc-types >=1.12 && <1.13, bytestring >=0.10 && <0.11, vector >=0.10 && <0.11, cassava, stringsearch
+  build-depends:       base >=4.7 && <4.8, pandoc >=1.12 && <1.13, pandoc-types >=1.12 && <1.13, bytestring >=0.10 && <0.11, vector >=0.10 && <0.11, cassava, stringsearch, containers
   hs-source-dirs:      src
   default-language:    Haskell2010
