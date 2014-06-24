@@ -123,7 +123,12 @@ isbnDB = M.fromList [
      ("Reason & Persuasion: Three Dialogues By Plato", "981068276X"),
      ("Red Mars (Mars Trilogy, #1)", "0553560735"),
      ("The Many-Coloured Land (Saga of Pliocene Exile, #1)", "1433224097"),
-     ("Why I Am Not a Christian: Four Conclusive Reasons to Reject the Faith ", "1456588850")
+     ("Why I Am Not a Christian: Four Conclusive Reasons to Reject the Faith ", "1456588850"),
+     ("Axiomatic", "1597805408"),
+     ("Dune (Dune Chronicles, #1)", "0441172717"),
+     ("The Robot Novels: The Caves of Steel / The Naked Sun (Robot, #1-2)", "B000PC46DU"),
+     ("The 3 Mistakes of My Life", "B001F2EET0"),
+     ("The Omnivore's Dilemma: A Natural History of Four Meals", "0143038583")
      ]
 urlDB = M.fromList [
      ("A Study in Emerald", "http://www.neilgaiman.com/mediafiles/exclusive/shortstories/emerald.pdf"),
@@ -177,5 +182,17 @@ urlDB = M.fromList [
      ("Utopia", "https://en.wikipedia.org/wiki/Utopia_%28book%29"),
      ("Waiting for Godot", "https://en.wikipedia.org/wiki/Waiting_for_Godot"),
      ("Wired Love: A Romance of Dots and Dashes", "https://encrypted.google.com/books?id=BjAOAAAAYAAJ"),
-     ("The Story of Life Insurance", "http://en.wikisource.org/wiki/The_Story_of_Life_Insurance")
+     ("The Story of Life Insurance", "http://en.wikisource.org/wiki/The_Story_of_Life_Insurance"),
+     ("Worm", "http://parahumans.wordpress.com/table-of-contents/"),
+     ("Snow, Glass, Apples","http://thedreaming.joefulgham.com/1999/10/10/snow-glass-apples/"),
+     ("Equoid (Laundry Files, #2.9)", "http://www.tor.com/stories/2013/09/equoid"),
+     ("The Island", "http://www.rifters.com/real/shorts/PeterWatts_TheIsland.pdf"),
+     ("The Paper Menagerie", "http://io9.com/5958919/read-ken-lius-amazing-story-that-swept-the-hugo-nebula-and-world-fantasy-awards"),
+     ("The Truth of Fact, the Truth of Feeling", "http://subterraneanpress.com/magazine/fall_2013/the_truth_of_fact_the_truth_of_feeling_by_ted_chiang"),
+     ("Fine Structure", "http://qntm.org/structure"),
+     ("All You Zombies", "http://cla.calpoly.edu/~lcall/303/heinlein_all_you_zombies.pdf"),
+     ("Overtime (Laundry Files, #2.5)", "http://www.tor.com/stories/2009/12/overtime"),
+     ("Down on the Farm (Laundry Files, #2.6)", "http://www.tor.com/stories/2008/07/down-on-the-farm"),
+     ("The Game of Rat and Dragon", "http://www.gutenberg.org/ebooks/29614"),
+     ("Spar", "http://clarkesworldmagazine.com/johnson_10_09/")
      ]
