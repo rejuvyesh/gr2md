@@ -128,7 +128,8 @@ isbnDB = M.fromList [
      ("Dune (Dune Chronicles, #1)", "0441172717"),
      ("The Robot Novels: The Caves of Steel / The Naked Sun (Robot, #1-2)", "B000PC46DU"),
      ("The 3 Mistakes of My Life", "B001F2EET0"),
-     ("The Omnivore's Dilemma: A Natural History of Four Meals", "0143038583")
+     ("The Omnivore's Dilemma: A Natural History of Four Meals", "0143038583"),
+     ("Dirk Gently's Holistic Detective Agency (Dirk Gently #1)", "1476782997")
      ]
 urlDB = M.fromList [
      ("A Study in Emerald", "http://www.neilgaiman.com/mediafiles/exclusive/shortstories/emerald.pdf"),
@@ -194,5 +195,6 @@ urlDB = M.fromList [
      ("Overtime (Laundry Files, #2.5)", "http://www.tor.com/stories/2009/12/overtime"),
      ("Down on the Farm (Laundry Files, #2.6)", "http://www.tor.com/stories/2008/07/down-on-the-farm"),
      ("The Game of Rat and Dragon", "http://www.gutenberg.org/ebooks/29614"),
-     ("Spar", "http://clarkesworldmagazine.com/johnson_10_09/")
+     ("Spar", "http://clarkesworldmagazine.com/johnson_10_09/"),
+     ("The Metropolitan Man", "https://www.fanfiction.net/s/10360716/1/The-Metropolitan-Man")
      ]
