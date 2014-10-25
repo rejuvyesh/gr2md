@@ -129,7 +129,8 @@ isbnDB = M.fromList [
      ("The Robot Novels: The Caves of Steel / The Naked Sun (Robot, #1-2)", "B000PC46DU"),
      ("The 3 Mistakes of My Life", "B001F2EET0"),
      ("The Omnivore's Dilemma: A Natural History of Four Meals", "0143038583"),
-     ("Dirk Gently's Holistic Detective Agency (Dirk Gently #1)", "1476782997")
+     ("Dirk Gently's Holistic Detective Agency (Dirk Gently #1)", "1476782997"),
+     ("The Nurture Assumption: Why Children Turn Out the Way They Do", "143910165")
      ]
 urlDB = M.fromList [
      ("A Study in Emerald", "http://www.neilgaiman.com/mediafiles/exclusive/shortstories/emerald.pdf"),
