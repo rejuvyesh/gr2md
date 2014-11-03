@@ -13,6 +13,8 @@ Example CSV line:
 8535464,"The Geeks Shall Inherit the Earth: Popularity, Quirk Theory and Why Outsiders Thrive After High School","Alexandra Robbins","Robbins, Alexandra","",="1401302025",="9781401302023",2,"3.62","Hyperion","Hardcover","448",2009,2009,2011/10/15,2012/07/16,"","","read","Found it only OK. Basically extended anecdotes, with some light science mixed in to buttress her manifesto (and used for support, not illumination).","","","","","",0,,,,,
 -}
 -- Background on Amazon: Generic ISBN search looks like this: http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&unfiltered=1&field-isbn=9781401302023
+-- Background on Goodreads: Generic ISBN search looks like this:
+-- https://www.goodreads.com/search?query=9781401302023
 
 {-# LANGUAGE OverloadedStrings #-}
 import Control.Applicative ((<*>), (<$>))
@@ -97,16 +99,16 @@ handleReview rvw = let (Pandoc _ x) = readMarkdown def { readerExtensions = stri
 -- the map, then we just don't link the title at all.
 titleOrIsbnToLink :: String -> Maybe String -> [Inline]
 titleOrIsbnToLink ttle i = let url = case i of
-                                                 Just i' -> getAmazonPage i'
+                                                 Just i' -> getGoodreadsPage i'
                                                  Nothing -> case M.lookup ttle isbnDB of
-                                                                  Just i'' -> getAmazonPage i''
+                                                                  Just i'' -> getGoodreadsPage i''
                                                                   Nothing -> case M.lookup ttle urlDB of
                                                                                   Just url'' -> url''
                                                                                   -- warn
                                                                                   Nothing -> trace ("Error! " ++ ttle) ""
                       in [Link [Str ttle] (url, "")]
-                where getAmazonPage :: String -> String
-                      getAmazonPage ibn = "http://www.amazon.com/s?ie=UTF8&field-isbn=" ++ ibn ++ "&page=1&rh=i:stripbooks"
+                where getGoodreadsPage :: String -> String
+                      getGoodreadsPage ibn = "http://www.goodreads.com/search?query=" ++ ibn
 
 isbnDB, urlDB :: M.Map String String
 isbnDB = M.fromList [
